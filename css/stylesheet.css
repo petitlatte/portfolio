@@ -8,7 +8,7 @@
 --text-bright-color: #FFF;
 --icon-color:#fff;
 --icon-bk-color:#ddd;
---large-width: 1000px;
+--large-width: 1200px;
 }
 
 body {
@@ -174,8 +174,8 @@ text-decoration: none;
 .conC .container{
 	display:flex;
 	flex-wrap:wrap;
-	max-width:1000px;
-	max-width: var(--large-width);
+	max-width:1200px;
+/*	max-width: var(--large-width);*/
 	margin:30px auto;
 }
 
@@ -319,22 +319,17 @@ footer .container {
 	}
 
 	.conB .container{
-/*		display: flex;*/
-		max-width: 1000px;
+		max-width: 1200px;
 		max-width: var(--large-width);
 		margin-left: auto;
 		margin-right: auto;
 	}
 
-/*	.conB .text{
-		flex:1;
-	}
-*/
 	header .container {
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
-		max-width: 1000px;
+		max-width: 1200px;
 		max-width: var(--large-width);
 		margin-left: auto;
 		margin-right:auto;
