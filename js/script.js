@@ -36,14 +36,4 @@ $( document ).ready(function() {
 	        'slow');
 	});
 
-// Instantiate new modal
-var modal = new Custombox.modal({
-  content: {
-    effect: 'fullscreen',
-    target: '#ex1'
-  }
-});
-
-// Open
-modal.open();
 });
