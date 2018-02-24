@@ -1,5 +1,6 @@
 $( document ).ready(function() {
 
+	 $('div.hidden').fadeIn(1500).removeClass('hidden');
 
 	    //VIEW PORTFOLIO BUTTON JS
 

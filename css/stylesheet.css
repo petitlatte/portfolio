@@ -83,7 +83,7 @@ text-decoration: none;
 	justify-content:center;
 	height: 100vh;
 	min-height:450px;
-	background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.3)),url("../img/header.jpg"); 
+	background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.3)),url("../img/header01.jpg"); 
 	background-position: center;
 	background-attachment: fixed;
 	background-size: cover;
@@ -201,9 +201,16 @@ text-decoration: none;
 }
 
 .conC .photo{
+	      filter: gray; /* IE5+ */
+      -webkit-filter: grayscale(1);
 	min-height:250px;
 	background-position: center;
 	background-size: cover;
+}
+
+.conC .photo:hover{
+	filter: none;
+    -webkit-filter: grayscale(0);
 }
 
 .conC a {
@@ -218,7 +225,7 @@ text-decoration: none;
 
 .conC a:hover{
 	cursor:pointer;
-	opacity: 0.5;
+	      -webkit-transform: scale(1.01);
 	transition: 1s ease;
 }
 
@@ -405,6 +412,10 @@ footer .container {
 /*MAX WIDTH*/
 
 @media(max-width: 767px){
+
+	header{
+		background-color: rgba(0,0,0,0.6);
+	}
 	header .container-small{
 		display: flex;
 		align-items: center;
@@ -421,6 +432,9 @@ footer .container {
 	width:80vw;
 }
 
+.headA{
+	background: none;
+}
 .headC{
 	margin-right: 10px;
 	padding:0;
@@ -458,3 +472,7 @@ footer .container {
 }
 
 /* ////////// END OF RESPONSIVE ////////// */
+
+div.hidden {
+    display: none
+}
