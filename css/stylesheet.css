@@ -63,7 +63,7 @@ text-decoration: none;
 	display:block;
 	padding:15px;
 	color:white;
-	font-size: 16px;
+	font-size: 18px;
 	text-decoration: none;
 
 }
@@ -83,7 +83,7 @@ text-decoration: none;
 	justify-content:center;
 	height: 100vh;
 	min-height:450px;
-	background-image:url("../img/header.jpg"); 
+	background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.3)),url("../img/header.jpg"); 
 	background-position: center;
 	background-attachment: fixed;
 	background-size: cover;
@@ -309,8 +309,12 @@ footer{
 
 footer .container {
 	padding:40px 20px;
-}
+	display:flex;
+	text-align: center;
+	justify-content:center;
+	align-items:center;
 
+}
 
 .footA h2{
 	margin-top:0;
@@ -323,6 +327,8 @@ footer .container {
 	margin-bottom:0;
 	font-size:14px;
 }
+
+
 
 .footD{
 	margin-top:10px;
@@ -338,16 +344,21 @@ footer .container {
 
 .footD a{
 	display:block;
-	margin-right:8px;
+	margin-right:10px;
 	padding:0;
 	color:inherit;
-	font-size: 16px;
+	font-size: 24px;
 	text-decoration: none;
 	border:solid 1px currentColor;
 	width:2em;
 	line-height:2em;
 	border-radius: 50%;
 	text-align: center;
+}
+
+.footD a:hover{
+	transition: 1s ease;
+	background-color: var(--main-color);
 }
 
 /*///////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
@@ -417,16 +428,22 @@ footer .container {
 	outline:none;
 	background:none;
 	font-size:28px;
-	opacity:0.5;
 	cursor: pointer;
+	color: var(--main-color);
 }
 
 .headC:hover{
+	transition: 1s ease;
 	opacity:0.3;
 }
 
 .headB{
+	background-color: rgba(0,0,0,0.4);
 	display:none;
+}
+
+.conB .container{
+	padding:30px;
 }
 
 }
