@@ -466,7 +466,7 @@ footer .container {
 	.conC article{
 		flex: 1 1 25%;
 	}
-	.conC article:nth-child(4n+1){
+	.conC article:nth-child(5n+1){
 		flex: 1 1 50%;
 	}
 }
