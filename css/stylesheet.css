@@ -248,7 +248,7 @@ text-decoration: none;
 .modal img{
 	display:block;
 	margin: 0 auto;
-width: 90%;
+width: 100%;
 }
 
 .modal .webbtn {
@@ -409,7 +409,7 @@ footer .container {
 
 }
 
-/*MAX WIDTH*/
+/***********MAX WIDTH***********/
 
 @media(max-width: 767px){
 
@@ -460,7 +460,27 @@ footer .container {
 	padding:30px;
 }
 
+
+/*modal media queries*/
+
+.modal .container{
+	padding:0;
+	line-height: 1.5;
+	text-align: left;
 }
+
+.modal .webbtn {
+	display: inline-block;
+	margin:0 auto;
+text-align: center;
+}
+
+.modal img{
+	margin:0;
+}
+
+}
+
 
 @media (min-width:1000px){
 	.conC article{
@@ -474,5 +494,5 @@ footer .container {
 /* ////////// END OF RESPONSIVE ////////// */
 
 div.hidden {
-    display: none
+    display: none;
 }
