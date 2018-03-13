@@ -201,8 +201,8 @@ text-decoration: none;
 }
 
 .conC .photo{
-	      filter: gray; /* IE5+ */
-      -webkit-filter: grayscale(1);
+	filter: gray;
+    -webkit-filter: grayscale(1);
 	min-height:250px;
 	background-position: center;
 	background-size: cover;
@@ -225,7 +225,7 @@ text-decoration: none;
 
 .conC a:hover{
 	cursor:pointer;
-	      -webkit-transform: scale(1.01);
+	-webkit-transform: scale(1.01);
 	transition: 1s ease;
 }
 
@@ -301,7 +301,7 @@ width: 100%;
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
-   max-width:1200px;
+   max-width:800px;
    	margin:30px auto;
 }
 
@@ -385,8 +385,7 @@ footer .container {
 	}
 
 	.conB .container{
-		max-width: 1200px;
-		max-width: var(--large-width);
+		max-width: 1000px;
 		margin-left: auto;
 		margin-right: auto;
 	}
