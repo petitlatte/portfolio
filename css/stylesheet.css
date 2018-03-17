@@ -1,13 +1,6 @@
 @charset "UTF-8";
 
 /*COLOR TEMPLATE*/
-:root{
---main-color: #24B3B4;
---dark-main-color: #242B2F;
---text-bright-color: #FFF;
---icon-color:#fff;
---large-width: 1200px;
-}
 
 body {
 	margin: 0;
@@ -19,12 +12,12 @@ body {
 	width:15%;
 	height: 2px;
 	border: 0 none;
-	color:var(--main-color);
-	background-color:var(--main-color);
+	color:#24B3B4;
+	background-color:#24B3B4;
 }
 
 mark.teal{
-	color:var(--main-color);
+	color:#24B3B4;
 	background: none;
 }
 
@@ -45,9 +38,7 @@ line-height: 50px;
 padding-left: 20px;
 padding-right: 20px;
 background-color: #24B3B4;
-background-color: var(--main-color);
 color: #fff;
-color: var(text-bright-color);
 font-size: 24px;
 text-decoration: none;
 }
@@ -88,7 +79,6 @@ text-decoration: none;
 	background-attachment: fixed;
 	background-size: cover;
 	color: #FFF;
-	color: var(--text-bright-color);
 	text-align: center;
 }
 
@@ -109,9 +99,8 @@ text-decoration: none;
 	padding: 10px 30px;
 	border: solid 2px currentColor;
 	border-radius: 6px;
-	background-color: none;
+	background: none;
 	color:#fff;
-	color: var(--text-bright-color);
 	text-decoration: none;
 }
 
@@ -165,9 +154,8 @@ text-decoration: none;
 	padding: 10px 30px;
 	border: solid 2px currentColor;
 	border-radius: 6px;
-	background-color: none;
+	background: none;
 	color:#fff;
-	color: var(--text-bright-color);
 	text-decoration: none;
 
 }
@@ -184,7 +172,6 @@ text-decoration: none;
 	display:flex;
 	flex-wrap:wrap;
 	max-width:1200px;
-/*	max-width: var(--large-width);*/
 	margin:30px auto;
 }
 
@@ -257,7 +244,7 @@ width: 100%;
 	padding: 10px 30px;
 	border: solid 2px currentColor;
 	border-radius: 6px;
-	background-color: var(--main-color);
+	background-color: #24B3B4;
 	color:white;
 	text-decoration: none;
 }
@@ -283,7 +270,7 @@ width: 100%;
 }
 
 .conD input[type=submit] {
-    background-color: var(--main-color);
+    background-color: #24B3B4;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -293,7 +280,6 @@ width: 100%;
 
 .conD input[type=submit]:hover {
 	background-color: #242B2F;
-    background-color: var(--dark-main-color);
     transition: 0.5s ease;
 }
 
@@ -309,9 +295,7 @@ width: 100%;
 
 footer{
 	color: #fff;
-	color: var(--text-bright-color);
 	background-color: #242B2F;
-	background-color: var(--dark-main-color);
 }
 
 footer .container {
@@ -365,7 +349,7 @@ footer .container {
 
 .footD a:hover{
 	transition: 1s ease;
-	background-color: var(--main-color);
+	background-color: #24B3B4;
 }
 
 /*///////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
@@ -379,7 +363,6 @@ footer .container {
 		align-items: center;
 		justify-content: space-between;
 		max-width: 1200px;
-		max-width: var(--large-width);
 		margin-left: auto;
 		margin-right:auto;
 	}
@@ -424,7 +407,6 @@ footer .container {
 .conA , .conB{
 	background-image: none;
 	background-color: #242B2F;
-	background-color: var(--dark-main-color);
 }
 
 .conA img{
@@ -442,7 +424,7 @@ footer .container {
 	background:none;
 	font-size:28px;
 	cursor: pointer;
-	color: var(--main-color);
+	color: #24B3B4;
 }
 
 .headC:hover{
