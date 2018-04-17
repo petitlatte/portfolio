@@ -296,7 +296,7 @@ width: 100%;
 
 footer{
 	color: #fff;
-	background-color: #242B2F;
+	background-color: #222222;
 }
 
 footer .container {
@@ -403,8 +403,9 @@ footer .container {
 	}
 
 .conA , .conB, footer{
-	background-image: url("../img/test.png");
-	background-color: #242B2F;
+/*	background-image: url("../img/test.png");*/
+	background-image:none; 
+	background-color: #222222;
 }
 
 .conA img{
