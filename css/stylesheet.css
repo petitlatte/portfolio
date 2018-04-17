@@ -173,6 +173,7 @@ text-decoration: none;
 	flex-wrap:wrap;
 	max-width:1200px;
 	margin:30px auto;
+	padding-bottom:80px;
 }
 
 .conC h1{
@@ -395,17 +396,14 @@ footer .container {
 
 @media(max-width: 767px){
 
-	header{
-		background-color: rgba(0,0,0,0.6);
-	}
 	header .container-small{
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
 	}
 
-.conA , .conB{
-	background-image: none;
+.conA , .conB, footer{
+	background-image: url("../img/test.png");
 	background-color: #242B2F;
 }
 
@@ -414,12 +412,14 @@ footer .container {
 }
 
 .headA{
-	background: none;
+	 opacity: 0;
 }
+
 .headC{
-	margin-right: 10px;
-	padding:0;
-	border:none;
+	margin: 10px;
+	padding:5px 10px;
+	border:1px solid #24B3B4;
+	border-radius: 3px;
 	outline:none;
 	background:none;
 	font-size:28px;
@@ -428,8 +428,9 @@ footer .container {
 }
 
 .headC:hover{
-	transition: 1s ease;
-	opacity:0.3;
+	transition: 0.5s ease;
+	color: #242B2F;
+	background-color: #24B3B4; 
 }
 
 .headB{
