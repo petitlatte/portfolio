@@ -109,11 +109,15 @@ text-decoration: none;
 	transition: 1s ease;
 }
 
+.conA h2{
+	font-size: 18px;
+}
+
 /* ////////// CONTAINER B //////////*/
 
 .conB{
 	min-height:450px;
-	background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.5)),url("../img/header02.jpg"); 
+	background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.5)),url("../img/test.png"); 
 	background-position: center;
 	background-attachment: fixed;
 	background-size: cover;
@@ -142,8 +146,8 @@ text-decoration: none;
 }
 
 .conB .container {
-	padding-top: 80px;
-	padding-bottom:20px;
+	padding-top: 35px;
+	padding-bottom:40px;
 }
 
 /*DOWNLOAD CV BUTTON*/
@@ -168,11 +172,16 @@ text-decoration: none;
 
 /* //////////CONTAINER C ////////// */
 
+.conC{
+	padding-top: 35px;
+}
+
 .conC .container{
 	display:flex;
 	flex-wrap:wrap;
 	max-width:1200px;
 	margin:30px auto;
+	padding-top: 40px;
 	padding-bottom:80px;
 }
 
@@ -189,21 +198,15 @@ text-decoration: none;
 }
 
 .conC .photo{
-	filter: gray;
-    -webkit-filter: grayscale(1);
 	min-height:250px;
 	background-position: center;
 	background-size: cover;
 }
 
-.conC .photo:hover{
-	filter: none;
-    -webkit-filter: grayscale(0);
-}
-
 .conC a {
+	top:0;
 	background-color: white;
-	flex: 1;
+	flex: 2;
 	margin: 10px;
 	display:block;
 	box-shadow: 1px 3px 3px #ddd;
@@ -252,6 +255,10 @@ width: 100%;
 
 
 /* /////////CONTAINER D /////////// */
+
+.conD{
+	padding-top: 35px;
+}
 
 .conD h1{
 	text-align: center;
@@ -467,9 +474,6 @@ text-align: center;
 
 @media (min-width:1000px){
 	.conC article{
-		flex: 1 1 25%;
-	}
-	.conC article:nth-child(5n+1){
 		flex: 1 1 50%;
 	}
 }
