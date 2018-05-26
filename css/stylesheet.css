@@ -115,7 +115,7 @@ text-decoration: none;
 
 /* ////////// CONTAINER B //////////*/
 
-.conB{
+.conC{
 	min-height:450px;
 	background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.5)),url("../img/test.png"); 
 	background-position: center;
@@ -124,19 +124,19 @@ text-decoration: none;
 }
 
 
-.conB h1{
+.conC h1{
 	color:white;
 	text-align: center;
 }
 
-.conB h2{
+.conC h2{
 	color:white;
 	margin-top:0;
 	margin-bottom:10px;
 	font-size:20px;
 }
 
-.conB p {
+.conC p {
 	text-align: center;
 	color:white;
 	margin-top:30px;
@@ -145,14 +145,14 @@ text-decoration: none;
 	line-height: 1.8;
 }
 
-.conB .container {
+.conC .container {
 	padding-top: 35px;
 	padding-bottom:40px;
 }
 
 /*DOWNLOAD CV BUTTON*/
 
-.conB a{
+.conC a{
 	display:inline-block;
 	margin-top: 20px;
 	padding: 10px 30px;
@@ -164,7 +164,7 @@ text-decoration: none;
 
 }
 
-.conB a:hover {
+.conC a:hover {
 	background-color: #24B3B4;
 	transition: 1s ease;
 }
@@ -172,11 +172,11 @@ text-decoration: none;
 
 /* //////////CONTAINER C ////////// */
 
-.conC{
+.conB{
 	padding-top: 35px;
 }
 
-.conC .container{
+.conB .container{
 	display:flex;
 	flex-wrap:wrap;
 	max-width:1200px;
@@ -185,25 +185,25 @@ text-decoration: none;
 	padding-bottom:80px;
 }
 
-.conC h1{
+.conB h1{
 	text-align: center;
 }
 
-.conC h2{
+.conB h2{
 	font-size:18px;
 }
 
-.conC p{
+.conB p{
 	font-size: 14px;
 }
 
-.conC .photo{
+.conB .photo{
 	min-height:250px;
 	background-position: center;
 	background-size: cover;
 }
 
-.conC a {
+.conB a {
 	top:0;
 	background-color: white;
 	flex: 2;
@@ -214,17 +214,17 @@ text-decoration: none;
 	text-decoration: none;
 }
 
-.conC a:hover{
+.conB a:hover{
 	cursor:pointer;
 	-webkit-transform: scale(1.01);
 	transition: 1s ease;
 }
 
-.conC .text{
+.conB .text{
 	margin:10px;
 }
 
-.conC article {
+.conB article {
 	flex: 1 1 350px;
 	display:flex;
 }
@@ -295,7 +295,8 @@ width: 100%;
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
-   max-width:800px;
+    padding-top:40px;
+   	max-width:800px;
    	margin:30px auto;
 }
 
@@ -375,7 +376,7 @@ footer .container {
 		margin-right:auto;
 	}
 
-	.conB .container{
+	.conC .container{
 		max-width: 1000px;
 		margin-left: auto;
 		margin-right: auto;
@@ -409,7 +410,7 @@ footer .container {
 		justify-content: space-between;
 	}
 
-.conA , .conB, footer{
+.conA , .conC, footer{
 /*	background-image: url("../img/test.png");*/
 	background-image:none; 
 	background-color: #222222;
@@ -473,7 +474,7 @@ text-align: center;
 
 
 @media (min-width:1000px){
-	.conC article{
+	.conB article{
 		flex: 1 1 50%;
 	}
 }
