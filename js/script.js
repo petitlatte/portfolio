@@ -6,7 +6,7 @@ $( document ).ready(function() {
 
 	$(".btn").click(function() {
     $('html,body').animate({
-    scrollTop: $(".conC").offset().top},
+    scrollTop: $(".conB").offset().top},
     'slow');
 	});
 
@@ -20,14 +20,14 @@ $( document ).ready(function() {
 
 	$(".about").click(function() {
 	    $('html,body').animate({
-	        scrollTop: $(".conB").offset().top},
+	        scrollTop: $(".conC").offset().top},
 	        'slow');
 	});
 
 
 	$(".portfolio").click(function() {
 	    $('html,body').animate({
-	        scrollTop: $(".conC").offset().top},
+	        scrollTop: $(".conB").offset().top},
 	        'slow');
 	});
 
