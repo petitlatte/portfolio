@@ -477,6 +477,8 @@ text-align: center;
 
 /* ////////// END OF RESPONSIVE ////////// */
 
+
+/*Does not display page until fully loaded*/
 div.hidden {
     display: none;
 }
