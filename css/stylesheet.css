@@ -21,6 +21,10 @@ mark.teal{
 	background: none;
 }
 
+h1{
+	text-align: center;
+}
+
 
 /*NAV BAR (HEAD A/B) */
 
@@ -66,7 +70,7 @@ text-decoration: none;
 }
 
 
-/* //////////CONTAINER A ////////// */
+/* //////////CONTAINER A - HERO/TITLE SECTION ////////// */
 
 .conA{
 	display:flex;
@@ -113,64 +117,7 @@ text-decoration: none;
 	font-size: 18px;
 }
 
-/* ////////// CONTAINER B //////////*/
-
-.conC{
-	min-height:450px;
-	background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.5)),url("../img/test.png"); 
-	background-position: center;
-	background-attachment: fixed;
-	background-size: cover;
-}
-
-
-.conC h1{
-	color:white;
-	text-align: center;
-}
-
-.conC h2{
-	color:white;
-	margin-top:0;
-	margin-bottom:10px;
-	font-size:20px;
-}
-
-.conC p {
-	text-align: center;
-	color:white;
-	margin-top:30px;
-	margin-bottom: 20px;
-	font-size:16px;
-	line-height: 1.8;
-}
-
-.conC .container {
-	padding-top: 35px;
-	padding-bottom:40px;
-}
-
-/*DOWNLOAD CV BUTTON*/
-
-.conC a{
-	display:inline-block;
-	margin-top: 20px;
-	padding: 10px 30px;
-	border: solid 2px currentColor;
-	border-radius: 6px;
-	background: none;
-	color:#fff;
-	text-decoration: none;
-
-}
-
-.conC a:hover {
-	background-color: #24B3B4;
-	transition: 1s ease;
-}
-
-
-/* //////////CONTAINER C ////////// */
+/* //////////CONTAINER B - PORTFOLIO SECTION  ////////// */
 
 .conB{
 	padding-top: 35px;
@@ -229,7 +176,7 @@ text-decoration: none;
 	display:flex;
 }
 
-/*MODAL*/
+/*MODAL POP UP FOR PORTFOLIO PIECES*/
 
 .modal .container{
 	text-align: center;
@@ -254,7 +201,71 @@ width: 100%;
 }
 
 
-/* /////////CONTAINER D /////////// */
+/* ////////// CONTAINER C - ABOUT ME SECTION //////////*/
+
+.conC{
+	min-height:450px;
+	background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.5)),url("../img/test.png"); 
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+
+.conC h1{
+	color:white;
+	text-align: center;
+}
+
+.conC h2{
+	color:white;
+	margin-top:0;
+	margin-bottom:10px;
+	font-size:20px;
+}
+
+.conC p {
+	text-align: center;
+	color:white;
+	margin-top:30px;
+	margin-bottom: 20px;
+	font-size:16px;
+	line-height: 1.8;
+}
+
+.conC .container {
+	padding-top: 35px;
+	padding-bottom:40px;
+}
+
+/*DOWNLOAD CV BUTTON*/
+
+.conC a{
+	display:inline-block;
+	margin-top: 20px;
+	padding: 10px 30px;
+	border: solid 2px currentColor;
+	border-radius: 6px;
+	background: none;
+	color:#fff;
+	text-decoration: none;
+
+}
+
+.conC a:hover {
+	background-color: #24B3B4;
+	transition: 1s ease;
+}
+
+.conC #profilephoto{
+	width:175px;
+	border-radius: 50%;
+	display:block;
+	margin:0 auto;
+	padding-top: 20px;
+}
+
+/* /////////CONTAINER D- CONTACT ME SECTION /////////// */
 
 .conD{
 	padding-top: 35px;
@@ -300,7 +311,7 @@ width: 100%;
    	margin:30px auto;
 }
 
-/*////////// FOOTER //////////*/
+/*////////// FOOTER - SOCIAL MEDIA SECTION //////////*/
 
 footer{
 	color: #fff;
@@ -420,6 +431,10 @@ footer .container {
 	width:80vw;
 }
 
+.conC p{
+	padding:10px;
+	text-align: left;
+}
 .headA{
 	 opacity: 0;
 }
